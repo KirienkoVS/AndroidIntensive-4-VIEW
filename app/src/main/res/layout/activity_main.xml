@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.androidintensiveview_2.CustomAnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:hour_hand_color="@android:color/holo_red_light"
+        app:hour_hand_width="17"
+        app:minute_hand_color="@color/black"
+        app:minute_hand_width="10"
+        app:second_hand_color="#001FFF"
+        app:second_hand_width="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomAnalogClock">
+        <attr name="second_hand_color" format="color"/>
+        <attr name="minute_hand_color" format="color"/>
+        <attr name="hour_hand_color" format="color"/>
+        <attr name="second_hand_width" format="float"/>
+        <attr name="minute_hand_width" format="float"/>
+        <attr name="hour_hand_width" format="float"/>
+    </declare-styleable>
+</resources>
